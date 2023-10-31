@@ -34,7 +34,7 @@ const Hero = () => {
           {statistics.map((stat) => (
             // used stat.label because its unique
             <div className="" key={stat.label}>
-              <p className="text-4xl font-serif font-bold ">{stat.value}</p>
+              <p className="text-3xl font-serif font-bold ">{stat.value}</p>
               <p className="leading-7 font-serif text-slate-gray">
                 {stat.label}
               </p>
