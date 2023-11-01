@@ -21,7 +21,7 @@ const Nav = () => {
             </li>
           ))}
         </ul>
-        '{/* add logic for menu button to open on click on smaller devices */}
+        {/* add logic for menu button to open on click on smaller devices */}
         <div className="hidden max-lg:block">
           <img src={hamburger} alt="Hamburger" width={25} height={25} />
         </div>
